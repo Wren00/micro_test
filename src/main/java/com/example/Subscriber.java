@@ -12,6 +12,9 @@ public class Subscriber {
     @NonNull
     @NotBlank
     private final String email;
+
+    @NonNull
+    @NotBlank
     private final String username;
 
     @Nullable
@@ -28,6 +31,7 @@ public class Subscriber {
         return email;
     }
 
+    @NonNull
     public String getUsername() {
         return username;
     }
